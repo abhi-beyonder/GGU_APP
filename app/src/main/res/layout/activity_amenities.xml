@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".amenitiesActivity">
+
+    <ScrollView
+        android:background="#edf2ff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--        First Linear Layout-->
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+<!--            Linear Layout for First Row-->
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_marginRight="50dp"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="3dp"
+                        android:background="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:id="@+id/library_amenities"
+                        android:background="@color/white"
+                        android:layout_width="130dp"
+                        android:src="@drawable/library1"
+                        android:layout_height="130dp"/>
+                    </androidx.cardview.widget.CardView>
+
+                <TextView
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="LIBRARY"
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="3dp"
+                        android:background="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/cafeteria_amenities"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/cafeteria1"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="CAFETERIA"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+<!--            Linear Layout for Second Row-->
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_marginRight="50dp"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="3dp"
+                        android:background="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/sports_amenities"
+                        android:background="@color/white"
+                        android:layout_width="130dp"
+                        android:src="@drawable/sportsggu"
+                        android:layout_height="130dp"/>
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="SPORTS"
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="3dp"
+                        android:background="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/auditoriam_amenities"
+                        android:background="@color/white"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/audoriamsq"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="AUDITORIAM"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+<!--            Linear Layout for third Row-->
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_marginRight="50dp"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="3dp"
+                        android:background="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:background="@color/white"
+                        android:layout_width="130dp"
+                        android:src="@drawable/hostelggu"
+                        android:layout_height="130dp"/>
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="HOSTEL"
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="3dp"
+                        android:background="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:background="@color/white"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/hospitalsquare"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="HOSPITAL"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+<!--            Linear Layout for fourth Row-->
+            <LinearLayout
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_marginRight="50dp"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="3dp"
+                        android:background="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:background="@color/white"
+                        android:layout_width="130dp"
+                        android:src="@drawable/guest"
+                        android:layout_height="130dp"/>
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="GUEST HOUSE"
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="3dp"
+                        android:background="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:background="@color/white"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/computer"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="COMPUTER CENTER"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+<!--            Linear Layout For Fifth Row-->
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

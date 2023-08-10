@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.DepartmentFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+<!--            engineering-->
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="20dp"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="23dp"
+                app:cardBackgroundColor="#edf2ff"
+                android:layout_gravity="center_horizontal"
+                app:cardElevation="15dp"
+                app:cardCornerRadius="20dp"
+                android:layout_width="350dp"
+                android:layout_height="125dp">
+
+                <TextView
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="14dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="School Of Studies Of Engineering And Technology"
+                    />
+
+                <Spinner
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/spinnerID2"
+                    android:padding="20dp"
+                    android:layout_marginTop="65dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"/>
+
+            </androidx.cardview.widget.CardView>
+
+ <!--            Social Science-->
+            <androidx.cardview.widget.CardView
+                android:paddingTop="10dp"
+                android:layout_marginBottom="23dp"
+                app:cardBackgroundColor="#edf2ff"
+                android:layout_gravity="center_horizontal"
+                app:cardElevation="15dp"
+                app:cardCornerRadius="20dp"
+                android:layout_width="350dp"
+                android:layout_height="125dp">
+
+                <TextView
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="14dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="School Of Studies Of Social Science"
+                    />
+
+                <Spinner
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/spinnerID4"
+                    android:padding="20dp"
+                    android:layout_marginTop="65dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"/>
+
+            </androidx.cardview.widget.CardView>
+
+<!--            Life Science-->
+            <androidx.cardview.widget.CardView
+                android:paddingTop="10dp"
+                android:layout_marginBottom="23dp"
+                app:cardBackgroundColor="#edf2ff"
+                android:layout_gravity="center_horizontal"
+                app:cardElevation="15dp"
+                app:cardCornerRadius="20dp"
+                android:layout_width="350dp"
+                android:layout_height="125dp">
+
+                <TextView
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="14dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="School Of Studies Of Life Science"
+                    />
+
+                <Spinner
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/spinnerID3"
+                    android:padding="20dp"
+                    android:layout_marginTop="65dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"/>
+
+            </androidx.cardview.widget.CardView>
+
+<!--            Physical Science-->
+            <androidx.cardview.widget.CardView
+                android:paddingTop="10dp"
+                android:layout_marginBottom="23dp"
+                app:cardBackgroundColor="#edf2ff"
+                android:layout_gravity="center_horizontal"
+                app:cardElevation="15dp"
+                app:cardCornerRadius="20dp"
+                android:layout_width="350dp"
+                android:layout_height="125dp">
+
+                <TextView
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="14dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="School Of Studies Of Physical Science"
+                    />
+
+                <Spinner
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/spinnerID7"
+                    android:padding="20dp"
+                    android:layout_marginTop="65dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"/>
+
+            </androidx.cardview.widget.CardView>
+
+<!--            Mathematics And Computation-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="23dp"
+                android:paddingTop="10dp"
+                app:cardBackgroundColor="#edf2ff"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="15dp">
+
+                <TextView
+                    android:fontFamily="@font/latoregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="14dp"
+                    android:gravity="center_horizontal"
+                    android:text="School Of Studies Of Mathematical And Computaional Science"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <Spinner
+                    android:id="@+id/spinnerID5"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="65dp"
+                    android:padding="20dp" />
+
+            </androidx.cardview.widget.CardView>
+
+<!--            Law-->
+            <androidx.cardview.widget.CardView
+                android:paddingTop="10dp"
+                android:layout_marginBottom="23dp"
+                app:cardBackgroundColor="#edf2ff"
+                android:layout_gravity="center_horizontal"
+                app:cardElevation="15dp"
+                app:cardCornerRadius="20dp"
+                android:layout_width="350dp"
+                android:layout_height="125dp">
+
+                <TextView
+                    android:fontFamily="@font/latoregular"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="14dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="School Of Studies Of Law"
+                    />
+
+                <Spinner
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/spinnerID9"
+                    android:padding="20dp"
+                    android:layout_marginTop="65dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"/>
+
+            </androidx.cardview.widget.CardView>
+
+<!--            Arts-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="23dp"
+                android:paddingTop="6dp"
+                app:cardBackgroundColor="#edf2ff"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="15dp">
+
+                <TextView
+                    android:fontFamily="@font/latoregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="14dp"
+                    android:gravity="center_horizontal"
+                    android:text="School Of Studies Of Arts"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <Spinner
+                    android:id="@+id/spinnerID1"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="65dp"
+                    android:padding="20dp" />
+            </androidx.cardview.widget.CardView>
+
+<!--            Commerce and management-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="23dp"
+                android:paddingTop="6dp"
+                app:cardBackgroundColor="#edf2ff"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="15dp">
+
+                <TextView
+                    android:fontFamily="@font/latoregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="14dp"
+                    android:gravity="center_horizontal"
+                    android:text="School Of Studies Of Commerce And Management"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <Spinner
+                    android:id="@+id/spinnerID8"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="65dp"
+                    android:padding="20dp" />
+            </androidx.cardview.widget.CardView>
+
+<!--            Education-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="23dp"
+                android:paddingTop="6dp"
+                app:cardBackgroundColor="#edf2ff"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="15dp">
+
+                <TextView
+                    android:fontFamily="@font/latoregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="14dp"
+                    android:gravity="center_horizontal"
+                    android:text="School Of Studies Of Education"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <Spinner
+                    android:id="@+id/spinnerID10"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="65dp"
+                    android:padding="20dp" />
+            </androidx.cardview.widget.CardView>
+
+<!--            Interdisciplinary and education-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="23dp"
+                android:paddingTop="6dp"
+                app:cardBackgroundColor="#edf2ff"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="15dp">
+
+                <TextView
+                    android:fontFamily="@font/latoregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="14dp"
+                    android:gravity="center_horizontal"
+                    android:text="School Of Studies Of Interdisciplinary Education And Research"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <Spinner
+                    android:id="@+id/spinnerID11"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="65dp"
+                    android:padding="20dp" />
+            </androidx.cardview.widget.CardView>
+
+<!--            Natural Resources-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="23dp"
+                android:paddingTop="10dp"
+                app:cardBackgroundColor="#edf2ff"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="15dp">
+
+                <TextView
+                    android:fontFamily="@font/latoregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="14dp"
+                    android:gravity="center_horizontal"
+                    android:text="School Of Studies Of Natural Resources"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <Spinner
+                    android:id="@+id/spinnerID6"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="65dp"
+                    android:padding="20dp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

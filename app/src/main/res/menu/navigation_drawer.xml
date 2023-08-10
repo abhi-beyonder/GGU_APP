@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navigation_administration"
+        android:icon="@drawable/administration1"
+        android:title="ADMINISTRATION"
+        />
+
+    <item android:id="@+id/navigation_amenities"
+        android:icon="@drawable/amenities1"
+        android:title="AMENITIES"
+        />
+
+    <item android:id="@+id/navigation_studentCorner"
+        android:icon="@drawable/studentcorner1"
+        android:title="STUDENT CORNER"
+        />
+
+    <item android:id="@+id/navigation_placement"
+        android:icon="@drawable/placementcell2"
+        android:title="PLACEMENT CELL"
+        />
+
+    <item android:title="LINKS">
+
+        <menu>
+            <item android:id="@+id/navigation_website"
+                android:icon="@drawable/web1"
+                android:title="WEBSITE"
+                />
+            <item android:id="@+id/navigation_samarth"
+                android:icon="@drawable/samarth2"
+                android:title="SAMARTH"/>
+        </menu>
+
+    </item>
+
+    <item android:title="OTHERS">
+        <menu>
+            <item android:id="@+id/navigation_share"
+                android:icon="@drawable/icshare24"
+                android:title="SHARE"
+                />
+
+            <item android:id="@+id/navigation_developer"
+                android:icon="@drawable/developer1"
+                android:title="DEVELOPER"
+                />
+
+        </menu>
+    </item>
+
+
+
+</menu>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AmenitiesLibrary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:paddingTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="0dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="8dp"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Library "
+                            android:textSize="32dp"
+                            android:textStyle="bold"
+                            android:textColor="#3877d1"
+                            android:layout_marginLeft="10dp"/>
+
+
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+                <View
+                    android:layout_marginRight="270dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#3877d1"
+                    />
+                <ImageView
+                    android:layout_width="370dp"
+                    android:layout_height="320dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/library" />
+
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#f0f0f0"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_width="match_parent"
+                    app:cardElevation="7dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/white"
+                        android:fontFamily="@font/latolight"
+                        android:paddingHorizontal="6dp"
+                        android:paddingVertical="7dp"
+                        android:text="@string/library"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+                </androidx.cardview.widget.CardView>
+
+
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_marginRight="11dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="15dp"
+                    android:paddingBottom="15dp"
+                    android:layout_width="390dp"
+                    app:cardElevation="10dp"
+                    android:layout_height="wrap_content"
+                    >
+                </androidx.cardview.widget.CardView>
+                <Button
+                    android:id="@+id/library1"
+                    android:layout_marginLeft="100dp"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint= "#3877d1"
+                    android:text="Library Catalogue"
+                    android:textColor="@color/white">
+
+                </Button>
+                <Button
+                    android:id="@+id/library2"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint= "#3877d1"
+                    android:text="Library Staff"
+                    android:textColor="@color/white" >
+
+                </Button>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#a8a8a8"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:text="GGV, BILASPUR, CHATTISGARH"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

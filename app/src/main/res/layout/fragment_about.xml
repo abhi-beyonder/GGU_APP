@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+
+            <TextView
+                android:fontFamily="@font/latobold"
+                android:paddingTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:text="About GGV"
+                />
+
+            <ImageView
+                android:layout_width="340dp"
+                android:layout_height="230dp"
+                android:src="@drawable/college"
+                />
+
+            <TextView
+                android:layout_width="406dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/about"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:paddingLeft="15dp"
+                />
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#f0f0f0"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:paddingBottom="5dp"
+                android:layout_width="match_parent"
+                app:cardElevation="7dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:paddingBottom="7dp"
+                        android:textSize="18dp"
+                        android:background="@color/white"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/latolight"
+                        android:paddingRight="6dp"
+                        android:paddingLeft="6dp"
+                        android:paddingTop="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/about_section"
+                        />
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <ImageView
+                android:id="@+id/mapImage"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/gps_image"
+                android:paddingTop="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:padding="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:orientation="vertical"
+                android:background="#214792"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="0dp"
+                    android:text="@string/contact"
+                    android:textColor="@color/white"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="0dp"
+                    android:text="REGISTRAR OFFICE \n 07752 - 260209"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:drawableStart="@drawable/phone"
+                    android:drawablePadding="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="0dp"
+                    android:drawableStart="@drawable/fax"
+                    android:drawablePadding="8dp"
+                    android:text=" FAX NUMBER \n 07752 - 260148"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="0dp"
+                    android:drawableStart="@drawable/email"
+                    android:drawablePadding="8dp"
+                    android:text=" EMAIL  \n centraluniv@ggu.ac.in"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="0dp"
+                    android:drawableStart="@drawable/location"
+                    android:drawablePadding="6dp"
+                    android:text=" GGV, Koni, Bilaspur, (C.G.), India,\n 495009"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</FrameLayout>

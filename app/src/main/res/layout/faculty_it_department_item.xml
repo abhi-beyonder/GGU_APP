@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#edf2ff"
+    android:layout_margin="5dp"
+    android:paddingTop="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#edf2ff">
+    <LinearLayout
+        android:background="#edf2ff"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/facutly_it_image"
+            android:padding="8dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/rohit"/>
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/latoregular"
+                android:textColor="@color/black"
+                android:id="@+id/faculty_it_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teachers Name"/>
+            <View
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#a8a8a8" />
+            <TextView
+                android:textSize="14dp"
+                android:fontFamily="@font/latolight"
+                android:textColor="@color/black"
+                android:id="@+id/faculty_it_designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Designation"/>
+            <View
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#a8a8a8" />
+            <TextView
+                android:textSize="14dp"
+                android:fontFamily="@font/latolight"
+                android:textColor="@color/black"
+                android:id="@+id/faculty_it_mob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile"/>
+            <View
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#a8a8a8" />
+            <TextView
+                android:textSize="14dp"
+                android:fontFamily="@font/latolight"
+                android:textColor="@color/black"
+                android:id="@+id/faculty_it_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"/>
+            <View
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#a8a8a8" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#a8a8a8"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout >
